@@ -21,5 +21,5 @@ for i in range(0,10): #Estrutura de repetição para execução do download de t
 
 fim = time() #Variável que armazena o tempo final da execução
 print('\n--------------------------------------------------\n')
-print(f'\nTempo de Download das {num_arquivo} Imagens é de {fim-inicio:.3} Segundos') #Impressão do tempo total de execução
+print(f'\nTempo de Download das {i+1} Imagens foi de {fim-inicio:.3} Segundos') #Impressão do tempo total de execução
 print('\n--------------------------------------------------')
